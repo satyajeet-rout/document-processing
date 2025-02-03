@@ -196,6 +196,12 @@ const Sidebar = ({ children, onLogout }) => {
       label: 'New Workflow',
       path: '/new-workflow'
     },
+    {
+      id: 'integrations',
+      icon: <Link size={18} />,
+      label: 'External Integrations',
+      path: '/external-integrations'
+    }
   ];
 
   const SidebarContent = () => (

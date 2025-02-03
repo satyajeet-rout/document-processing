@@ -81,6 +81,7 @@ import PDFProcessor from './Pages/PdfProcessor';
 import DocumentContainer from './components/document-management/DocumentContainer';
 import MissingDocsDashboard from './components/document-management/MissingDocsDashboard';
 import { LoginPage } from './Pages/LoginPage';
+import ExternalIntegrations from './Pages/ExternalIntegrations';
 
 
 const App = () => {
@@ -147,6 +148,10 @@ const App = () => {
           <Route
             path="/new-workflow"
             element={<PDFProcessor />}
+          />
+          <Route
+            path='/external-integrations'
+            element={<ExternalIntegrations/>}
           />
         </Route>
 
