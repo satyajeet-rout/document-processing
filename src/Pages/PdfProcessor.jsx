@@ -287,7 +287,6 @@
 
 
 
-
 import { useState } from 'react';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
@@ -505,7 +504,7 @@ const PDFProcessor = () => {
                 {processing ? (
                   <>
                     <Loader2 className="mr-2 h-4 w-4 animate-spin" />
-                    Processing PDFs....
+                    Processing PDFs...
                   </>
                 ) : (
                   `Process ${files.length} PDF${files.length !== 1 ? 's' : ''}`
