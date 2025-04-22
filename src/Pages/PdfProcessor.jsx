@@ -505,7 +505,7 @@ const PDFProcessor = () => {
                 {processing ? (
                   <>
                     <Loader2 className="mr-2 h-4 w-4 animate-spin" />
-                    Processing PDFs...
+                    Processing PDFs....
                   </>
                 ) : (
                   `Process ${files.length} PDF${files.length !== 1 ? 's' : ''}`
